@@ -1,6 +1,6 @@
 *{
     box-sizing: border-box; 
-    margin: auto;
+    margin: 0px 0px 0px 2px;
     padding: 0%;
 }
 h1{
@@ -60,29 +60,29 @@ body{
     display: table;
     float: left;
 }
-@media(min-width:1200px){
+@media screen and (min-width:1200px){
    
     .column1{
         float: left;
-        width: 33.3%;
+        width: 32.8%;
     } 
     .column2{
         float: left;
-        width: 33.3%;
+        width: 32.8%;
     } 
     .column3{
         float: left;
-        width: 33.3%;
+        width: 32.8%;
     }    
 }
-    @media(min-width:992px) and (max-width:1199px){
-    .column1{float:left; width:50%;}
-    .column2{float:left; width:50%;}
-    .column3{float:left; width:100%;}
+    @media screen and (min-width:992px) and (max-width:1199px){
+    .column1{float:left; width:49%;}
+    .column2{float:left; width:49%;}
+    .column3{float:left; width:98.5%;}
 
 }
-    @media(min-width:768px) and (max-width:991){
-        .column1{float:left; width:100%;}
-        .column2{float:left; width:100%;}
-        .column3{float:left; width:100%;}
+    @media screen and (min-width:768px) and (max-width:991px){
+        .column1{float:left; width:98.5%;}
+        .column2{float:left; width:98.5%;}
+        .column3{float:left; width:98.5%;}
 }
